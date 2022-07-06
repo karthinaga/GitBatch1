@@ -2,7 +2,11 @@ package org.com;
 
 public class Sam {
 	private void m1() {
+
+		System.out.println("rocket");
+
 		System.out.println("i am");
+
 
 	}
 	private void m3() {
@@ -15,7 +19,9 @@ public class Sam {
 	public static void main(String[] args) {
 		Sam s = new Sam();
 		s.m3();
+
 		s.mark3();
+
 		s.m1();
 	}
 	   
